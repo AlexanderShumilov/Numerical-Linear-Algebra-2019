@@ -24,4 +24,6 @@ Problem 3
 * SPPMI matrix is not sparse by construction (-4)
 
 Problem 2. 
--5 pts gram_schmidt_qr() is wrong (test failed), check np.linalg.norm(A - Q @ R) for random matrix A. -6 pts delete_column_QR() and insert_column_QR() are wrong, check np.allclose(R_hat, np.triu(R_hat)) and np.allclose(R_tilde, np.triu(R_tilde)), they are not triangluar. -1 pts delete_row_QR() modifying elements that are known to be zero.
+* -5 pts gram_schmidt_qr() is wrong (test failed), check np.linalg.norm(A - Q @ R) for random matrix A. 
+* -6 pts delete_column_QR() and insert_column_QR() are wrong, check np.allclose(R_hat, np.triu(R_hat)) and np.allclose(R_tilde, np.triu(R_tilde)), they are not triangluar. 
+* -1 pts delete_row_QR() modifying elements that are known to be zero.
